@@ -97,23 +97,9 @@ This repository will be referenced directly from the AppSource submission and re
 
 ---
 
-## Changelog
+## Change History
 
-All notable changes to the Zenpo Intranet Suite for SharePoint documentation are recorded here by product release.
+A complete record of public-facing documentation and release evidence
+is maintained in the changelog.
 
-This changelog reflects **documentation and trust artifacts**, not internal development activity.
-
----
-
-### Unreleased
-
-* Initial documentation scaffold
-
----
-
-### v1.0.0
-
-* Initial public release documentation
-* Security and data-handling disclosures
-* AppSource review artifacts
-* SBOM publication
+See: [CHANGELOG.md](CHANGELOG.md)
