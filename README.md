@@ -33,28 +33,28 @@ All product source code lives in private repositories and controlled build pipel
 
 ## Design Principles
 
-These principles apply to **all humans, scripts, and automation** interacting with this repository.
+These principles govern how Zenpo publishes and maintains release and security evidence.
 
-1. **Code stays private**
-   This repository never contains application source code, build scripts, or runtime assets.
+1. **Source code remains private**  
+   This repository contains no application source code, build scripts, credentials, or runtime assets.
 
-2. **Evidence is public**
-   Release notes, SBOMs, and security posture documentation are published intentionally.
+2. **Release evidence is intentionally public**  
+   Release notes, SBOMs, security documentation, and other verification artifacts are published to provide customers and reviewers with durable evidence of each release.
 
-3. **Immutability per release**
-   Documentation and artifacts are versioned and never modified after release.
+3. **Published releases are immutable**  
+   Release-specific documentation and artifacts are versioned and preserved as published. Corrections or changes are issued through a new revision or release rather than silently replacing prior evidence.
 
-4. **Canonical vs. rendered documentation**
-   Canonical documentation is authored once. Submission-specific variants (for example, Microsoft Marketplace uploads) are derived from it.
+4. **Documentation has one canonical source**  
+   Core documentation is maintained once. Marketplace, compliance, or submission-specific versions are derived from that canonical source to reduce inconsistency.
 
-5. **Boring beats clever**
-   No dynamic links, no mutable references, no marketing language.
+5. **References should remain durable and predictable**  
+   Public documentation favors stable paths, explicit versions, and static references over dynamic or mutable links.
 
-6. **Public is declarative, private is operational**
-   Public files describe what exists. Private documentation describes how it is produced.
+6. **Public evidence is declarative; internal processes remain operational**  
+   Public materials describe what was released, verified, or supported. Internal documentation defines how those artifacts are produced, tested, and maintained.
 
-7. **Automation must follow structure, not invent it**
-   Automation may scaffold or transform files, but must never introduce new conventions without explicit approval.
+7. **Automation preserves established structure**  
+   Automation may generate, validate, or transform artifacts, but it must follow approved conventions rather than introducing new structures or publication rules independently.
 
 ---
 
