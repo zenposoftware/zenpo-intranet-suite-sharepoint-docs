@@ -10,7 +10,7 @@ Permanent canonical URL (never renamed or repurposed):
 
 [https://github.com/zenposoftware/zenpo-intranet-suite-sharepoint-docs](https://github.com/zenposoftware/zenpo-intranet-suite-sharepoint-docs)
 
-This URL is referenced by AppSource submissions, security reviews, and enterprise due-diligence processes.
+This URL is referenced by Microsoft Marketplace submissions, security reviews, and enterprise due-diligence processes.
 
 ---
 
@@ -22,7 +22,7 @@ It exists to provide:
 
 * Product documentation
 * Security and data-handling disclosures
-* AppSource review artifacts (for example, “How to test”)
+* Microsoft Marketplace review artifacts (for example, “How to test”)
 * Release notes and versioned SBOMs
 * A stable, auditable public record for enterprise and government reviewers
 
@@ -33,28 +33,28 @@ All product source code lives in private repositories and controlled build pipel
 
 ## Design Principles
 
-These principles apply to **all humans, scripts, and automation** interacting with this repository.
+These principles govern how Zenpo publishes and maintains release and security evidence.
 
-1. **Code stays private**
-   This repository never contains application source code, build scripts, or runtime assets.
+1. **Source code remains private**  
+   This repository contains no application source code, build scripts, credentials, or runtime assets.
 
-2. **Evidence is public**
-   Release notes, SBOMs, and security posture documentation are published intentionally.
+2. **Release evidence is intentionally public**  
+   Release notes, SBOMs, security documentation, and other verification artifacts are published to provide customers and reviewers with durable evidence of each release.
 
-3. **Immutability per release**
-   Documentation and artifacts are versioned and never modified after release.
+3. **Published releases are immutable**  
+   Release-specific documentation and artifacts are versioned and preserved as published. Corrections or changes are issued through a new revision or release rather than silently replacing prior evidence.
 
-4. **Canonical vs. rendered documentation**
-   Canonical documentation is authored once. Submission-specific variants (for example, AppSource uploads) are derived from it.
+4. **Documentation has one canonical source**  
+   Core documentation is maintained once. Marketplace, compliance, or submission-specific versions are derived from that canonical source to reduce inconsistency.
 
-5. **Boring beats clever**
-   No dynamic links, no mutable references, no marketing language.
+5. **References should remain durable and predictable**  
+   Public documentation favors stable paths, explicit versions, and static references over dynamic or mutable links.
 
-6. **Public is declarative, private is operational**
-   Public files describe what exists. Private documentation describes how it is produced.
+6. **Public evidence is declarative; internal processes remain operational**  
+   Public materials describe what was released, verified, or supported. Internal documentation defines how those artifacts are produced, tested, and maintained.
 
-7. **Automation must follow structure, not invent it**
-   Automation may scaffold or transform files, but must never introduce new conventions without explicit approval.
+7. **Automation preserves established structure**  
+   Automation may generate, validate, or transform artifacts, but it must follow approved conventions rather than introducing new structures or publication rules independently.
 
 ---
 
@@ -64,15 +64,7 @@ These principles apply to **all humans, scripts, and automation** interacting wi
 zenpo-intranet-suite-sharepoint-docs/
 ├─ README.md
 ├─ CHANGELOG.md
-├─ SECURITY.md
-├─ SUPPORT.md
-├─ LICENSE
-│
-├─ docs/                  # Canonical documentation (relative links)
-├─ appsource/             # AppSource submission artifacts (absolute, version-pinned links)
-├─ releases/              # Release notes, SBOMs, and build metadata (per version)
-├─ images/                # Versioned images referenced by documentation
-└─ tools/                 # Automation helpers (no code execution)
+└─ releases/              # Release notes, SBOMs, and build metadata (per version)
 ```
 
 ---
@@ -82,18 +74,22 @@ zenpo-intranet-suite-sharepoint-docs/
 **Zenpo Software Innovations, LLC**
 Official website: [https://zenpo.com](https://zenpo.com)
 
+Product website: [https://intranet.zenpo.com](https://intranet.zenpo.com)
+
+Help website: [https://help.zenpo.com](https://help.zenpo.com)
+
 Zenpo is the publisher and maintainer of the **Zenpo Intranet Suite for SharePoint**.
 
 ---
 
-## Microsoft AppSource Listing
+## Microsoft Marketplace Listing
 
-The Zenpo Intranet Suite for SharePoint is distributed via Microsoft AppSource.
+The Zenpo Intranet Suite for SharePoint is distributed via Microsoft Marketplace.
 
-**AppSource listing:**
+**Microsoft Marketplace listing:**
 *To be published.*
 
-This repository will be referenced directly from the AppSource submission and review materials.
+This repository will be referenced directly from the Microsoft Marketplace submission and review materials.
 
 ---
 
