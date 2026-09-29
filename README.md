@@ -10,7 +10,7 @@ Permanent canonical URL (never renamed or repurposed):
 
 [https://github.com/zenposoftware/zenpo-intranet-suite-sharepoint-docs](https://github.com/zenposoftware/zenpo-intranet-suite-sharepoint-docs)
 
-This URL is referenced by AppSource submissions, security reviews, and enterprise due-diligence processes.
+This URL is referenced by Microsoft Marketplace submissions, security reviews, and enterprise due-diligence processes.
 
 ---
 
@@ -22,7 +22,7 @@ It exists to provide:
 
 * Product documentation
 * Security and data-handling disclosures
-* AppSource review artifacts (for example, “How to test”)
+* Microsoft Marketplace review artifacts (for example, “How to test”)
 * Release notes and versioned SBOMs
 * A stable, auditable public record for enterprise and government reviewers
 
@@ -45,7 +45,7 @@ These principles apply to **all humans, scripts, and automation** interacting wi
    Documentation and artifacts are versioned and never modified after release.
 
 4. **Canonical vs. rendered documentation**
-   Canonical documentation is authored once. Submission-specific variants (for example, AppSource uploads) are derived from it.
+   Canonical documentation is authored once. Submission-specific variants (for example, Microsoft Marketplace uploads) are derived from it.
 
 5. **Boring beats clever**
    No dynamic links, no mutable references, no marketing language.
@@ -69,7 +69,7 @@ zenpo-intranet-suite-sharepoint-docs/
 ├─ LICENSE
 │
 ├─ docs/                  # Canonical documentation (relative links)
-├─ appsource/             # AppSource submission artifacts (absolute, version-pinned links)
+├─ appsource/             # Microsoft Marketplace submission artifacts (absolute, version-pinned links)
 ├─ releases/              # Release notes, SBOMs, and build metadata (per version)
 ├─ images/                # Versioned images referenced by documentation
 └─ tools/                 # Automation helpers (no code execution)
@@ -90,14 +90,14 @@ Zenpo is the publisher and maintainer of the **Zenpo Intranet Suite for SharePoi
 
 ---
 
-## Microsoft AppSource Listing
+## Microsoft Marketplace Listing
 
-The Zenpo Intranet Suite for SharePoint is distributed via Microsoft AppSource.
+The Zenpo Intranet Suite for SharePoint is distributed via Microsoft Marketplace.
 
-**AppSource listing:**
+**Microsoft Marketplace listing:**
 *To be published.*
 
-This repository will be referenced directly from the AppSource submission and review materials.
+This repository will be referenced directly from the Microsoft Marketplace submission and review materials.
 
 ---
 
