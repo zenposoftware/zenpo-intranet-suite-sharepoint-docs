@@ -16,6 +16,7 @@ in Azure DevOps and mirrored here for public reference.
 | Release No | Date (UTC) | Release Notes |
 |------------|------------|---------------|
 | v0.1.5.2 | 2026-02-02 | [release-notes.md](releases/v0.1.5.2/release-notes.md) |
+| v0.8.2.0 | 2026-09-29 | [release-notes.md](releases/v0.8.2.0/release-notes.md) |
 
 ## Unreleased
 - Initial documentation and trust repository scaffold
