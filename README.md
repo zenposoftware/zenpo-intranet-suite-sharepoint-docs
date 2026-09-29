@@ -82,6 +82,10 @@ zenpo-intranet-suite-sharepoint-docs/
 **Zenpo Software Innovations, LLC**
 Official website: [https://zenpo.com](https://zenpo.com)
 
+Product website: [https://intranet.zenpo.com](https://intranet.zenpo.com)
+
+Help website: [https://help.zenpo.com](https://help.zenpo.com)
+
 Zenpo is the publisher and maintainer of the **Zenpo Intranet Suite for SharePoint**.
 
 ---
