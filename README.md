@@ -64,15 +64,7 @@ These principles apply to **all humans, scripts, and automation** interacting wi
 zenpo-intranet-suite-sharepoint-docs/
 ├─ README.md
 ├─ CHANGELOG.md
-├─ SECURITY.md
-├─ SUPPORT.md
-├─ LICENSE
-│
-├─ docs/                  # Canonical documentation (relative links)
-├─ appsource/             # Microsoft Marketplace submission artifacts (absolute, version-pinned links)
-├─ releases/              # Release notes, SBOMs, and build metadata (per version)
-├─ images/                # Versioned images referenced by documentation
-└─ tools/                 # Automation helpers (no code execution)
+└─ releases/              # Release notes, SBOMs, and build metadata (per version)
 ```
 
 ---
