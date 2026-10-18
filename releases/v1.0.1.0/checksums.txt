@@ -1,0 +1,3 @@
+7f955b37ee7bb831319c87088f3b7ba296bd1749371fc1357f92e29f9fba7208  Zenpo Intranet Suite for SharePoint.sppkg
+6bf78bd56b93771359b26bc6e7345bcbeaa304a1e4b8a1e69a690dfca172ecb2  zenpo-intranet-suite-for-sharepoint-1.0.1.0-sbom.cdx.json
+3dbf06eb882cce37d0c8cd2d904728dc5d574ce853f5a0091ffc0bf7094ebac4  VERSION
