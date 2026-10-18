@@ -19,8 +19,8 @@ in Azure DevOps and mirrored here for public reference.
 | v0.8.2.0 | 2026-09-29 | [release-notes.md](releases/v0.8.2.0/release-notes.md) |
 | v1.0.0.0 | 2026-09-30 | [release-notes.md](releases/v1.0.0.0/release-notes.md) |
 | v1.0.0.1 | 2026-09-30 | [release-notes.md](releases/v1.0.0.1/release-notes.md) |
-| v1.0.1.0 | 2026-10-18 | [release-notes.md](releases/v1.0.1.0/release-notes.md) |
 | v1.0.0.2 | 2026-10-15 | [release-notes.md](releases/v1.0.0.2/release-notes.md) |
+| v1.0.1.0 | 2026-10-18 | [release-notes.md](releases/v1.0.1.0/release-notes.md) |
 
 ## Unreleased
 - Initial documentation and trust repository scaffold
