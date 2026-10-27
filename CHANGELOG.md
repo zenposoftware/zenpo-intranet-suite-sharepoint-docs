@@ -22,5 +22,11 @@ in Azure DevOps and mirrored here for public reference.
 | v1.0.0.2 | 2026-10-15 | [release-notes.md](releases/v1.0.0.2/release-notes.md) |
 | v1.0.1.0 | 2026-10-18 | [release-notes.md](releases/v1.0.1.0/release-notes.md) |
 
+## Documentation
+
+| Date (UTC) | Change |
+|------------|--------|
+| 2026-10-27 | Added [SECURITY.md](SECURITY.md), [docs/enterprise-plan.md](docs/enterprise-plan.md) and the data flow diagram |
+
 ## Unreleased
 - Initial documentation and trust repository scaffold

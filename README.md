@@ -14,6 +14,17 @@ This URL is referenced by Microsoft Marketplace submissions, security reviews, a
 
 ---
 
+## For Reviewers
+
+| Question | Where to look |
+|---|---|
+| What data leaves our tenant, and what permissions does the suite need? | [SECURITY.md](SECURITY.md) |
+| Can it run in GCC High, DoD, or a tenant that blocks outside calls? | [docs/enterprise-plan.md](docs/enterprise-plan.md) |
+| What is in a release, and how do we check the package? | [releases/](releases/) and [SECURITY.md § Release evidence](SECURITY.md#release-evidence) |
+| What changed in each release? | [CHANGELOG.md](CHANGELOG.md) |
+
+---
+
 ## Purpose of This Repository
 
 This repository is **documentation-only**.
@@ -64,6 +75,10 @@ These principles govern how Zenpo publishes and maintains release and security e
 zenpo-intranet-suite-sharepoint-docs/
 ├─ README.md
 ├─ CHANGELOG.md
+├─ SECURITY.md            # Security and data handling
+├─ docs/
+│  └─ enterprise-plan.md  # Enterprise plan, offline entitlement, government clouds
+├─ images/                # Diagrams used by the documentation
 └─ releases/              # Release notes, SBOMs, and build metadata (per version)
 ```
 
