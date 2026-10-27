@@ -1,20 +1,24 @@
 # Zenpo Intranet Suite for SharePoint — Documentation & Trust Repository
 
+**Last updated:** 2026-10-27
+
 ## Canonical Repository
 
-This repository is the **authoritative public documentation and trust surface** for:
+This is the authoritative public repository for **Zenpo Intranet Suite for SharePoint**
+documentation and the evidence used to review it.
 
-**Zenpo Intranet Suite for SharePoint**
-
-Permanent canonical URL (never renamed or repurposed):
+Its permanent URL is:
 
 [https://github.com/zenposoftware/zenpo-intranet-suite-sharepoint-docs](https://github.com/zenposoftware/zenpo-intranet-suite-sharepoint-docs)
 
-This URL is referenced by Microsoft Marketplace submissions, security reviews, and enterprise due-diligence processes.
+Microsoft Marketplace submissions, security reviews and enterprise due diligence reference
+this URL. It will never be renamed or repurposed.
 
 ---
 
 ## For Reviewers
+
+If you're reviewing the suite, here's where to start:
 
 | Question | Where to look |
 |---|---|
@@ -27,45 +31,57 @@ This URL is referenced by Microsoft Marketplace submissions, security reviews, a
 
 ## Purpose of This Repository
 
-This repository is **documentation-only**.
+This repository is **documentation-only**. It gives customers and reviewers a place to find:
 
-It exists to provide:
+- Product documentation
+- Security and data-handling disclosures
+- Microsoft Marketplace review artifacts, such as “How to test”
+- Release notes and versioned SBOMs
+- A stable, auditable public record for enterprise and government reviews
 
-* Product documentation
-* Security and data-handling disclosures
-* Microsoft Marketplace review artifacts (for example, “How to test”)
-* Release notes and versioned SBOMs
-* A stable, auditable public record for enterprise and government reviewers
-
-**No proprietary source code is stored here.**
-All product source code lives in private repositories and controlled build pipelines.
+**There is no proprietary source code here.** All product source code stays in private
+repositories and controlled build pipelines.
 
 ---
 
 ## Design Principles
 
-These principles govern how Zenpo publishes and maintains release and security evidence.
+Here's how Zenpo publishes and maintains release and security evidence:
 
-1. **Source code remains private**  
-   This repository contains no application source code, build scripts, credentials, or runtime assets.
+1. **Source code stays private.**
 
-2. **Release evidence is intentionally public**  
-   Release notes, SBOMs, security documentation, and other verification artifacts are published to provide customers and reviewers with durable evidence of each release.
+   This repository has no application source code, build scripts, credentials or runtime
+   assets.
 
-3. **Published releases are immutable**  
-   Release-specific documentation and artifacts are versioned and preserved as published. Corrections or changes are issued through a new revision or release rather than silently replacing prior evidence.
+2. **Release evidence is public on purpose.**
 
-4. **Documentation has one canonical source**  
-   Core documentation is maintained once. Marketplace, compliance, or submission-specific versions are derived from that canonical source to reduce inconsistency.
+   Release notes, SBOMs, security documentation and other verification artifacts give
+   customers and reviewers a lasting record of each release.
 
-5. **References should remain durable and predictable**  
-   Public documentation favors stable paths, explicit versions, and static references over dynamic or mutable links.
+3. **Published releases stay as published.**
 
-6. **Public evidence is declarative; internal processes remain operational**  
-   Public materials describe what was released, verified, or supported. Internal documentation defines how those artifacts are produced, tested, and maintained.
+   Release-specific documentation and artifacts are versioned and preserved. If something
+   needs correcting or changing, it goes into a new revision or release. Prior evidence
+   isn't silently replaced.
 
-7. **Automation preserves established structure**  
-   Automation may generate, validate, or transform artifacts, but it must follow approved conventions rather than introducing new structures or publication rules independently.
+4. **Core documentation is maintained in one place.**
+
+   Marketplace, compliance and submission-specific versions come from that canonical source.
+   That reduces the chance of different versions saying different things.
+
+5. **References should hold up over time.**
+
+   Public documentation favors stable paths, explicit versions and static references over
+   links that are dynamic or can change underneath a review.
+
+6. **Public evidence describes what was released, verified or supported.**
+
+   Internal documentation covers how those artifacts are produced, tested and maintained.
+
+7. **Automation follows the established structure.**
+
+   Automation can generate, validate or transform artifacts. It still has to follow approved
+   conventions; it can't introduce new structures or publication rules on its own.
 
 ---
 
@@ -86,31 +102,31 @@ zenpo-intranet-suite-sharepoint-docs/
 
 ## Vendor
 
-**Zenpo Software Innovations, LLC**
+**Zenpo Software Innovations, LLC** publishes and maintains the **Zenpo Intranet Suite for
+SharePoint**.
+
 Official website: [https://zenpo.com](https://zenpo.com)
 
 Product website: [https://intranet.zenpo.com](https://intranet.zenpo.com)
 
 Help website: [https://help.zenpo.com](https://help.zenpo.com)
 
-Zenpo is the publisher and maintainer of the **Zenpo Intranet Suite for SharePoint**.
-
 ---
 
 ## Microsoft Marketplace Listing
 
-The Zenpo Intranet Suite for SharePoint is distributed via Microsoft Marketplace.
+Zenpo Intranet Suite for SharePoint is distributed through Microsoft Marketplace.
 
-**Microsoft Marketplace listing:**
-*To be published.*
+**Permanent Microsoft Marketplace URL:**
 
-This repository will be referenced directly from the Microsoft Marketplace submission and review materials.
+[https://marketplace.microsoft.com/en-us/product/WA200012546](https://marketplace.microsoft.com/en-us/product/WA200012546)
+
+The Microsoft Marketplace submission and review materials will link directly to this
+repository.
 
 ---
 
 ## Change History
 
-A complete record of public-facing documentation and release evidence
-is maintained in the changelog.
-
-See: [CHANGELOG.md](CHANGELOG.md)
+[CHANGELOG.md](CHANGELOG.md) keeps the complete record of public-facing documentation and
+release evidence.
